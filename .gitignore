@@ -1,0 +1,67 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+# Specific to some setups
+pip-log.txt
+pip-delete-this-directory.txt
+
+### PyCharm (JetBrains) ###
+# Root directory for PyCharm settings
+.idea/
+
+# Exceptions: If you want to share specific run configurations or code style
+# with your team, you can un-ignore them by adding:
+# !.idea/runConfigurations/
+# !.idea/codeStyles/
+
+# Ignore user-specific workspace and tasks
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionary.xml
+.idea/shelf/
+
+# Ignore sensitive data and local history
+.idea/sonarlint/
+.idea/vcs.xml
+.idea/httpRequests/
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
+
+### Local Environment / Secrets ###
+.env
+.flaskenv
+*.local
