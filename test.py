@@ -31,5 +31,5 @@ test_payloads = [
 
     # --- GROUP D: PRODUCT CATALOG (Mixed types) ---
     {"id": "prod_55", "sku": "SKU-99", "price": {"amount": 29.99, "currency": "USD"}, "tags": ["sale", "new"]},
-    {"id": "prod_56", "price": {"amount": 15.00, "currency": "EUR"}} # Missing tags
+    {"id": "prod_56", "price": {"amount": 15.00, "currency": "EUR"}, "tags": ["sale", "new", "test"]} # Missing tags
 ]
